@@ -1,0 +1,46 @@
+{
+  "name": "react-native-weather-chart",
+  "version": "0.1.0",
+  "description": "Customizable weather chart for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": ">= 17.0.1",
+    "react-native": ">= 0.64.0",
+    "react-native-svg": ">= 12.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/runtime": "^7.14.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.25.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-test-renderer": "17.0.1"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "ui",
+    "weather",
+    "chart",
+    "weather-chart",
+    "weather-forecast",
+    "react-native-svg",
+    "svg"
+  ],
+  "homepage": "https://github.com/bk52/react-native-weather-chart",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bk52/react-native-weather-chart.git"
+  },
+  "author": "BK52",
+  "license": "MIT"
+}
