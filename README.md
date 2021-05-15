@@ -4,6 +4,8 @@
 `react-native-weather-chart` provides create weather chart with SVG. This library uses 
 [`weather-icons`](https://github.com/erikflowers/weather-icons) as default.
 
+[📲See example app](https://github.com/bk52/react-native-weather-chart-example)
+
 ## Installation
 1) `npm i react-native-svg` install peer dependencies [More Info](https://github.com/react-native-svg/react-native-svg)
 2) `npm i react-native-svg-transformer --save-dev` 
