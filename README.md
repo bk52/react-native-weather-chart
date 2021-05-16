@@ -70,3 +70,64 @@ const styles = StyleSheet.create({
 
 export default App;
 ```
+## Properties
+The component has two properties, `data` and `settings`  
+```js
+ <WeatherChart data={Data} settings={Settings} />
+ ```
+#### data
+```js
+const Data = {
+  values: [23, 24, 25, 20, 15],
+  textTop: ['Today', 'Mon', 'Tue', 'Wed', 'Thu'],
+  iconTop: ['DayCloudy', 'DaySunny', 'DaySunny', 'DayCloudy', 'DayRain'],
+  textBottom: ['23°', '24°', '25°', '20°', '15°'],
+  iconBottom: ['DayCloudy', 'DaySunny', 'DaySunny', 'DayCloudy', 'DayRain'],
+};
+ ```
+| Property   | Type          | Description                                                                                                                                                                       |
+|------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| values     | Array[Number] | Required! If you dont have values, you should use empty array. []                                                                                                                 |
+| textTop    | Array[String] | Optional.                                                                                                                                                                         |
+| textBottom | Array[String] | Optional.                                                                                                                                                                         |
+| iconTop    | Array[String] | This library uses [`weather-icons`](https://github.com/erikflowers/weather-icons) as default. You can find all icon names in [here](https://github.com/bk52/react-native-weather-chart/blob/main/src/WeatherChart/WeatherChartIcons.js). |
+| iconBottom | Array[String] |  This library uses [`weather-icons`](https://github.com/erikflowers/weather-icons) as default. You can find all icon names in [here](https://github.com/bk52/react-native-weather-chart/blob/main/src/WeatherChart/WeatherChartIcons.js).                                                                                                                                                                                 |
+
+#### settings
+const Settings = {
+  showTextTop: true,
+  showTextBottom: false,
+  showIconTop: true,
+  showIconBottom: true,
+  ...
+};
+
+| Property          | Type   | Description              | Default Value      |
+|-------------------|--------|--------------------------|--------------------|
+| colSpace          | Number | Space between two values | 100                |
+| fontSizeTop       | Number | Font size of top text    | 12                 |
+| fontSizeBottom    | Number | Font size of bottom text | 12                 |
+| iconSize          | Number | Size of all icons        | 30                 |
+| marginTop         | Number |                          | 0                  |
+| marginLeft        | Number |                          | 30                 |
+| marginRight       | Number |                          | 30                 |
+| markerSize        | Number |                          | 4                  |
+| markerStrokeSize  | Number |                          | 1.5                |
+| showTextTop       | Bool   |                          | true               |
+| showTextBottom    | Bool   |                          | true               |
+| showIconTop       | Bool   |                          | true               |
+| showIconBottom    | Bool   |                          | true               |
+| showVerticalLines | Bool   |                          | true               |
+| lineColor         | String |                          | 'lightgray'        |
+| vlineColor        | String |                          | 'lightgray'        |
+| vlineStroke       | String |                          | '5,5'              |
+| topTextColor      | String |                          | '#A6BCD0'          |
+| bottomTextColor   | String |                          | '#A6BCD0'          |
+| markerFillColor   | String |                          | 'white'            |
+| markerStrokeColor | String |                          | 'lightgray'        |
+| noDataText        | String |                          | 'There is no data' |
+| noDataTextColor   | String |                          | '#A6BCD0'          |
+| noDataFontSize    | Number |                          | 12                 |
+| iconTopColor      | String |                          | '#fff'             |
+| iconBottomColor   | String |                          | '#fff'             |
+|                   |        |                          |                    |
