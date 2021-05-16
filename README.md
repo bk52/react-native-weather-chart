@@ -94,6 +94,7 @@ const Data = {
 | iconBottom | Array[String] |  This library uses [`weather-icons`](https://github.com/erikflowers/weather-icons) as default. You can find all icon names in [here](https://github.com/bk52/react-native-weather-chart/blob/main/src/WeatherChart/WeatherChartIcons.js).                                                                                                                                                                                 |
 
 #### settings
+```js
 const Settings = {
   showTextTop: true,
   showTextBottom: false,
@@ -101,7 +102,7 @@ const Settings = {
   showIconBottom: true,
   ...
 };
-
+```
 | Property          | Type   | Description              | Default Value      |
 |-------------------|--------|--------------------------|--------------------|
 | colSpace          | Number | Space between two values | 100                |
