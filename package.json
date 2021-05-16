@@ -1,6 +1,6 @@
 {
   "name": "react-native-weather-chart",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Customizable weather chart for React Native",
   "main": "index.js",
   "scripts": {
